@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-03T13:01:09 IST" name="Default suite" finished-at="2022-03-03T13:01:10 IST" duration-ms="249">
+    <groups>
+      <group name="a">
+        <method signature="GroupPgm.bike()[pri:0, instance:com.GroupofGroup.GroupPgm@6cd28fa7]" name="bike" class="com.GroupofGroup.GroupPgm"/>
+        <method signature="GroupPgm.formula()[pri:0, instance:com.GroupofGroup.GroupPgm@6cd28fa7]" name="formula" class="com.GroupofGroup.GroupPgm"/>
+      </group> <!-- a -->
+      <group name="b">
+        <method signature="GroupPgm.wel()[pri:0, instance:com.GroupofGroup.GroupPgm@6cd28fa7]" name="wel" class="com.GroupofGroup.GroupPgm"/>
+      </group> <!-- b -->
+    </groups>
+    <test started-at="2022-03-03T13:01:09 IST" name="Default test" finished-at="2022-03-03T13:01:10 IST" duration-ms="249">
+      <class name="com.GroupofGroup.GroupPgm">
+        <test-method signature="bike()[pri:0, instance:com.GroupofGroup.GroupPgm@6cd28fa7]" started-at="2022-03-03T13:01:09 IST" name="bike" finished-at="2022-03-03T13:01:10 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bike -->
+        <test-method signature="formula()[pri:0, instance:com.GroupofGroup.GroupPgm@6cd28fa7]" started-at="2022-03-03T13:01:10 IST" name="formula" finished-at="2022-03-03T13:01:10 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formula -->
+        <test-method signature="wel()[pri:0, instance:com.GroupofGroup.GroupPgm@6cd28fa7]" started-at="2022-03-03T13:01:10 IST" name="wel" finished-at="2022-03-03T13:01:10 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wel -->
+        <test-method signature="Thank()[pri:0, instance:com.GroupofGroup.GroupPgm@6cd28fa7]" started-at="2022-03-03T13:01:10 IST" name="Thank" depends-on-groups="b" finished-at="2022-03-03T13:01:10 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Thank -->
+        <test-method signature="hello()[pri:0, instance:com.GroupofGroup.GroupPgm@6cd28fa7]" started-at="2022-03-03T13:01:10 IST" name="hello" depends-on-groups="a" finished-at="2022-03-03T13:01:10 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hello -->
+      </class> <!-- com.GroupofGroup.GroupPgm -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
